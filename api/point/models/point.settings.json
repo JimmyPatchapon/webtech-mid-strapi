@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "items",
+  "collectionName": "points",
   "info": {
-    "name": "Items",
-    "description": ""
+    "name": "Point"
   },
   "options": {
     "increments": true,
@@ -15,18 +14,15 @@
     "Name": {
       "type": "string"
     },
-    "Prices": {
+    "Amount": {
       "type": "integer"
     },
-    "Details": {
-      "type": "text"
+    "Type": {
+      "type": "string"
     },
-    "Quantity": {
-      "type": "integer"
-    },
-    "purchases": {
-      "via": "items",
-      "collection": "purchase"
+    "point_uses": {
+      "via": "points",
+      "collection": "point-use"
     }
   }
 }

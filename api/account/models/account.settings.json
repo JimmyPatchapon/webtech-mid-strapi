@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "items",
+  "collectionName": "accounts",
   "info": {
-    "name": "Items",
+    "name": "Account",
     "description": ""
   },
   "options": {
@@ -12,20 +12,27 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "Username": {
       "type": "string"
     },
-    "Prices": {
+    "Password": {
+      "type": "password"
+    },
+    "Role": {
+      "type": "string"
+    },
+    "Points": {
       "type": "integer"
     },
-    "Details": {
-      "type": "text"
-    },
-    "Quantity": {
+    "Total_Outcome": {
       "type": "integer"
+    },
+    "point_uses": {
+      "via": "accounts",
+      "collection": "point-use"
     },
     "purchases": {
-      "via": "items",
+      "via": "accounts",
       "collection": "purchase"
     }
   }

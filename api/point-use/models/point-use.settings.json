@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "point_uses",
+  "info": {
+    "name": "Point_Use"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "accounts": {
+      "collection": "account",
+      "via": "point_uses",
+      "dominant": true
+    },
+    "points": {
+      "collection": "point",
+      "via": "point_uses",
+      "dominant": true
+    }
+  }
+}

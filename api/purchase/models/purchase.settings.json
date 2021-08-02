@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "purchases",
+  "info": {
+    "name": "Purchase"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "accounts": {
+      "collection": "account",
+      "via": "purchases",
+      "dominant": true
+    },
+    "items": {
+      "collection": "items",
+      "via": "purchases",
+      "dominant": true
+    },
+    "Amount": {
+      "type": "integer"
+    }
+  }
+}

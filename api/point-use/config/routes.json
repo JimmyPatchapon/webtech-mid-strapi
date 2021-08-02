@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/point-uses",
+      "handler": "point-use.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/point-uses/count",
+      "handler": "point-use.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/point-uses/:id",
+      "handler": "point-use.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/point-uses",
+      "handler": "point-use.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/point-uses/:id",
+      "handler": "point-use.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/point-uses/:id",
+      "handler": "point-use.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
