@@ -11,11 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "accounts": {
-      "collection": "account",
-      "via": "point_uses",
-      "dominant": true
-    },
     "points": {
       "collection": "point",
       "via": "point_uses",
