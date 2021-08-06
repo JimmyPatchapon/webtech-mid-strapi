@@ -12,8 +12,8 @@
   "pluginOptions": {},
   "attributes": {
     "items": {
-      "collection": "items",
       "via": "purchases",
+      "collection": "items",
       "dominant": true
     },
     "Amount": {
