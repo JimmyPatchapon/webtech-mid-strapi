@@ -12,23 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Prices": {
+    "prices": {
       "type": "integer"
     },
-    "Details": {
+    "details": {
       "type": "text"
     },
-    "Quantity": {
+    "quantity": {
       "type": "integer"
     },
     "purchases": {
       "via": "items",
       "collection": "purchase"
     },
-    "Picture": {
+    "picture": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
