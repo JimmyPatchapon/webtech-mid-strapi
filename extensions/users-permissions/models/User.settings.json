@@ -64,6 +64,10 @@
     },
     "accumulativePoints": {
       "type": "biginteger"
+    },
+    "purchases": {
+      "via": "users",
+      "collection": "purchase"
     }
   }
 }
