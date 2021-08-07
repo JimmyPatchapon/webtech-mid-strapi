@@ -21,9 +21,9 @@
       "type": "integer"
     },
     "users": {
+      "via": "purchases",
       "plugin": "users-permissions",
       "collection": "user",
-      "via": "purchases",
       "dominant": true
     },
     "Date": {
