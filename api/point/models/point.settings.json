@@ -19,10 +19,6 @@
     },
     "Type": {
       "type": "string"
-    },
-    "point_uses": {
-      "via": "points",
-      "collection": "point-use"
     }
   }
 }
