@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "points",
+  "collectionName": "rewards",
   "info": {
-    "name": "Point",
-    "description": ""
+    "name": "Rewards"
   },
   "options": {
     "increments": true,
@@ -12,16 +11,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name_reward": {
       "type": "string"
     },
-    "Amount": {
-      "type": "integer"
-    },
-    "Type": {
-      "type": "string"
-    },
-    "condition": {
+    "require_points": {
       "type": "integer"
     }
   }

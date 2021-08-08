@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "points",
+  "collectionName": "events",
   "info": {
-    "name": "Point",
+    "name": "Events",
     "description": ""
   },
   "options": {
@@ -12,16 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "event_name": {
       "type": "string"
     },
-    "Amount": {
+    "earn_point": {
       "type": "integer"
     },
-    "Type": {
-      "type": "string"
-    },
-    "condition": {
+    "total": {
       "type": "integer"
     }
   }
