@@ -2,12 +2,13 @@
   "kind": "collectionType",
   "collectionName": "rewards",
   "info": {
-    "name": "Rewards"
+    "name": "Rewards",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/point-earns",
+      "handler": "point-earn.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/point-earns/count",
+      "handler": "point-earn.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/point-earns/:id",
+      "handler": "point-earn.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/point-earns",
+      "handler": "point-earn.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/point-earns/:id",
+      "handler": "point-earn.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/point-earns/:id",
+      "handler": "point-earn.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

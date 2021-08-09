@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "point_earns",
+  "info": {
+    "name": "Point_earn",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users": {
+      "plugin": "users-permissions",
+      "collection": "user",
+      "via": "point_earns",
+      "dominant": true
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "date"
+    },
+    "detail": {
+      "type": "string"
+    }
+  }
+}

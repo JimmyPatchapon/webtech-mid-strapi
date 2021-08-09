@@ -74,6 +74,10 @@
     "point_uses": {
       "via": "users",
       "collection": "point-use"
+    },
+    "point_earns": {
+      "via": "users",
+      "collection": "point-earn"
     }
   }
 }
