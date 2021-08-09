@@ -60,10 +60,24 @@
       "configurable": false
     },
     "points": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "default": "0"
     },
     "accumulativePoints": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "default": "0"
+    },
+    "purchases": {
+      "via": "users",
+      "collection": "purchase"
+    },
+    "point_uses": {
+      "via": "users",
+      "collection": "point-use"
+    },
+    "point_earns": {
+      "via": "users",
+      "collection": "point-earn"
     }
   }
 }

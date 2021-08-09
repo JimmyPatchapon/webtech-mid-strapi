@@ -1,21 +1,21 @@
 {
   "kind": "collectionType",
-  "collectionName": "point_uses",
+  "collectionName": "point_earns",
   "info": {
-    "name": "Point_Use",
+    "name": "Point_earn",
     "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "users": {
-      "via": "point_uses",
       "plugin": "users-permissions",
       "collection": "user",
+      "via": "point_earns",
       "dominant": true
     },
     "amount": {
