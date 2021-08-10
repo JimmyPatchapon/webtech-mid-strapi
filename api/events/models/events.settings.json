@@ -20,6 +20,9 @@
     },
     "total": {
       "type": "integer"
+    },
+    "Button": {
+      "type": "boolean"
     }
   }
 }
