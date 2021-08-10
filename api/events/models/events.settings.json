@@ -22,7 +22,8 @@
       "type": "integer"
     },
     "Button": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": false
     }
   }
 }
